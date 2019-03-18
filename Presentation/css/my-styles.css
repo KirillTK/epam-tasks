@@ -1,0 +1,16 @@
+.slides {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+    opacity: 0;
+    display: none; }
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+    opacity: 1;
+    display: inline; }
+
+.reveal .slides section[data-vertical-align-top]{
+    top: 0 !important;
+}

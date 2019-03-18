@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/white.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Printing and PDF exports -->
+  <script>
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+  <link rel="stylesheet" href="css/my-styles.css">
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section data-transition="slide">
+      <img class="plain" src="assets/images/scrum_logo.png">
+    </section>
+    <section data-transition="slide">
+      <span>What is Scrum ?</span>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/thinking_man.png" width="980" height="750"
+             alt="thinking man">
+      </div>
+      <span class="fragment step-fade-in-then-out">Scrum is an agile project management methodology or framework used  for software development projects with the goal of delivering new software capability every 2-4 weeks.</span>
+    </section>
+    <section data-transition="slide">
+      <span class="fragment grow">Project success rates - AGILE vs WATERFALL</span>
+      <div>
+        <img class="plain" src="assets/images/statistics.png" width="1014" height="447" alt="agile vs waterfall">
+      </div>
+    </section>
+
+    <section data-transition="slide">
+      <span>Waterfall model</span>
+      <div>
+        <img class="plain" src="assets/images/waterfall-model.png" width="729" height="296" alt="waterfall model">
+      </div>
+    </section>
+
+
+    <section data-transition="slide">
+      <span>Disadvantages Waterfall Methodology</span>
+      <br>
+      <div class="fragment step-fade-in-then-out">
+        <ul>
+          <li>Difficult to go back and change something</li>
+          <li>Late developing software during the life cycle.</li>
+          <li>High amounts of risk</li>
+          <li>Bad model for a long projects.</li>
+          <li>Not suitable for the projects where requirements are changing</li>
+        </ul>
+      </div>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/reject3.png" width="290" height="300"
+             alt="reject">
+      </div>
+    </section>
+
+    <section data-transition="slide">
+      <span>Advantages of Scrum Methodology</span>
+      <br>
+      <div class="fragment step-fade-in-then-out">
+        <ul>
+          <li>Higher productivity</li>
+          <li>Better-quality products</li>
+          <li>Reduced time to market</li>
+          <li>Quick start</li>
+          <li>Better team dynamics</li>
+          <li>Low amount of risk</li>
+        </ul>
+      </div>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/approve.png" width="355" height="301"
+             alt="approve">
+      </div>
+    </section>
+
+    <section data-transition="slide">
+      <span>Components of Scrum development</span>
+      <div>
+        <ul>
+          <li>Team roles</li>
+          <li>Events</li>
+          <li>Artifacts</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-transition="slide">
+      <span>Scrum team</span>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/owner.png" width="383" height="503"
+             alt="owner">
+      </div>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/master.png" width="383" height="503"
+             alt="master">
+      </div>
+      <div>
+        <img class="fragment step-fade-in-then-out plain" src="assets/images/team2.png" width="383" height="503"
+             alt="developers">
+      </div>
+    </section>
+
+
+    <section data-transition="slide">
+      <span>Process and artifacts</span>
+      <div>
+        <img class="plain" src="assets/images/Process.jpg" width="782" height="440"
+             alt="Scrum process">
+      </div>
+    </section>
+
+    <section data-transition="slide">
+      <span>Story Poins</span>
+      <div>
+        <img class="plain" src="assets/images/story_points.jpg" width="700" height="416"
+             alt="Story points">
+      </div>
+    </section>
+
+
+  </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        center: false,
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>

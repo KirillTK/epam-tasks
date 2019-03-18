@@ -1,0 +1,132 @@
+body {
+    font-family: 'Catamaran', 'Tahoma', sans-serif;
+    font-size: 15pt;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    height: 100%;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.photo {
+    height: 171px;
+    width: 171px;
+    border-radius: 50%;
+    border: 2px solid #5a5048;
+}
+
+.my-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-paragraph {
+    width: 700px;
+}
+
+.my-personal-information {
+    display: grid;
+    grid: repeat(4, 65px)/ 100px 250px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.my-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 1024px;
+    height: 90px;
+    background-color: #00BFA5;
+}
+
+.icon {
+    margin: 80px;
+    padding: 25px 25px;
+    font-size: 21pt;
+    color: white;
+    border: 2px solid #00BFA5;
+}
+
+.icon:hover {
+    border-radius: 50%;
+    border: 2px solid #f9fdff;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.skills-grid {
+    display: grid;
+    grid: 100px 100px/  repeat(4, 250px);
+}
+
+.skill-item h2 {
+    margin-left: 30px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 950px;
+}
+
+.double-photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.double-photo img {
+    margin-right: 50px;
+}
+
+.black-icon {
+    font-size: 31pt;
+    color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.name-project {
+    text-align: left;
+}
